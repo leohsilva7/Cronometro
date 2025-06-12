@@ -8,7 +8,7 @@ body{
     background-color: rgb(27, 27, 27);
 }
 h1{
-    color: rgb(199, 197, 197);
+    color: white;
 }
 #display{
     font-size: 30px;
@@ -16,10 +16,12 @@ h1{
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-}
+}   
 .box{
     padding: 20px 40px;
     background-color: black;
+    border-radius: 20px;
+    border:  1px solid gray;
 }
 button{
     border: 1px solid black;
@@ -27,18 +29,7 @@ button{
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
-    
-}
-#iniciar{
-    background-color: rgb(0, 110, 255);
     color: black;
-}
-#pausar{
-    background-color: rgb(187, 255, 0);
-    color: black;
+    background-color: rgb(0, 255, 115);
     
-}
-#reset{
-    background-color: rgb(0, 255, 213);
-    color: white;
 }
